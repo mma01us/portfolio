@@ -203,3 +203,130 @@ a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: none;
 }
+
+.mobile h1 {
+    font-family: 'Oswald', 'sans-serif';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2.5px
+}
+
+.mobile h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12.5px;
+    letter-spacing: 0;
+    color: #585858;
+    opacity: 1;
+}
+
+.mobile h3 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1.25px;
+}
+
+.mobile h4 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h4:active, h4:hover, .activebtn {
+    border-bottom: 4px solid #ffffff;
+}
+
+.mobile h5 {
+    text-align: left;
+    font: Italic 25px/45px Lora;
+    letter-spacing: 1.57px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.mobile p1 {
+    text-align: left;
+    font: 15px/45px Lora;
+    letter-spacing: 0;
+    color: #585858;
+    opacity: 1;
+}
+
+.mobile .header {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mobile .content-links {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+
+.mobile .biostart {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile .bioquote {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0;
+    margin-bottom: 7.5%;
+}
+
+.mobile .modernquote p {
+    text-align: center;
+    font: 25px/50px Aileron;
+    font-family: 'aileronblack';
+    letter-spacing: 5px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.mobile .modernquote p1 {
+    text-align: center;
+    font: Italic 7.5px/50px Lora;
+    letter-spacing: 3.5px;
+    color: #000000;
+    text-transform: uppercase;  
+}
+
+.mobile card {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.mobile .logo {
+    width: 150px;
+    height: 150px;
+}
+
+.face {
+    width: 150px;
+    height: auto;
+}
+
+.mobile .face {
+    width: 100px;
+    height: auto;
+}
