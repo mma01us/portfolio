@@ -272,6 +272,7 @@ h4:active, h4:hover, .activebtn {
 }
 
 .mobile .biostart {
+    text-align: center;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
@@ -289,6 +290,20 @@ h4:active, h4:hover, .activebtn {
     margin-right: 2.5%;
     margin-top: 0;
     margin-bottom: 7.5%;
+}
+
+.mobile .modernquote {
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .mobile .modernquote p {
@@ -334,6 +349,7 @@ h4:active, h4:hover, .activebtn {
 }
 
 .mobile .face {
+    text-align: center;
     width: 100px;
     height: auto;
 }
