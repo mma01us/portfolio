@@ -4,6 +4,11 @@ const bodyParser = require("body-parser");
 var path = require("path");
 var mobile = require('is-mobile');
 
+if(mobile())
+    console.log("Mobile User");
+else
+    console.log("Non-mobile User");
+
 module.exports = function(app) {
     app.get("/", function(req, res){ //Index page requested
         if(mobile())
