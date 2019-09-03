@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website to showcase my work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mma01us/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Michael Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mma01us/portfolio/issues"
+  },
+  "homepage": "https://github.com/mma01us/portfolio#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "morgan": "^1.9.1"
+  }
+}
