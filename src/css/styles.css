@@ -355,5 +355,5 @@ h4:active, h4:hover, .activebtn {
 }
 
 .mobile .filler {
-    visibility: hidden;
+    display: none;
 }
