@@ -241,7 +241,7 @@ h4:active, h4:hover, .activebtn {
 }
 
 .mobile h5 {
-    text-align: left;
+    text-align: center;
     font: Italic 25px/45px Lora;
     letter-spacing: 1.57px;
     color: #FFFFFF;
@@ -275,6 +275,13 @@ h4:active, h4:hover, .activebtn {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+}
+
+.mobile .biotext {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%
 }
 
 .mobile .bioquote {
@@ -329,4 +336,8 @@ h4:active, h4:hover, .activebtn {
 .mobile .face {
     width: 100px;
     height: auto;
+}
+
+.mobile .filler {
+    visibility: hidden;
 }
