@@ -14,5 +14,5 @@ module.exports = function(app) {
 
     app.get("/contact", function(req, res){ //Contact page requested
         res.render("../src/views/contact.ejs"); //Show contact page to user
-    });    
+    });
 };
