@@ -96,6 +96,13 @@ p3 {
     flex-wrap: wrap;
 }
 
+.other-content-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+}
+
 .content-container {
     margin-left: 10%;
     margin-right: 10%;
@@ -199,6 +206,18 @@ card {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    opacity: .75;
+}
+
+card:hover, card:active {
+    margin: 0;
+    width: auto;
+    height: 325px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    opacity: 1;
 }
 
 a, a:hover, a:visited, a:active {
