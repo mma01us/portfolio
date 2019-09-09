@@ -36,10 +36,18 @@ h4 {
     font-size: 28px;
     letter-spacing: 1.75px;
     line-height: 1.5;
+    transition: 0.5s;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 h4:active, h4:hover, .activebtn {
-    border-bottom: 4px solid #ffffff;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 2px solid #ffffff;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 h5 {
@@ -207,6 +215,7 @@ card {
     justify-content: space-evenly;
     flex-wrap: wrap;
     opacity: .75;
+    transition: 0.5s;
 }
 
 card:hover, card:active {
@@ -255,10 +264,6 @@ a, a:hover, a:visited, a:active {
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.5;
-}
-
-h4:active, h4:hover, .activebtn {
-    border-bottom: 4px solid #ffffff;
 }
 
 .mobile h5 {
