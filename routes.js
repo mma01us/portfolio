@@ -14,6 +14,9 @@ module.exports = function(app) {
             case '1': //creative challenge
                 res.render("../src/views/creativechallenge.ejs");
                 break;
+            case '2': //hs
+                res.render("../src/views/hs.ejs");
+                break;
             default:
                 res.status(404).send("The requested page could not be found. If you think this is a mistake, contact me at michael.ma@nyu.edu");
         }
