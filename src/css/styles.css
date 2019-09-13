@@ -386,10 +386,12 @@ a, a:hover, a:visited, a:active {
 
 .but {
     height: auto;
-    width: 500px
+    width: 500px;
+    margin-bottom: 2.5%;
 }
 
 .mobile .but { 
     height: auto;
     width: 250px;
+    margin-bottom: 2.5%;
 }
