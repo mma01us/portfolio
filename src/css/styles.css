@@ -383,3 +383,13 @@ a, a:hover, a:visited, a:active {
 .mobile .filler {
     display: none;
 }
+
+.but {
+    height: auto;
+    width: 500px
+}
+
+.mobile .but { 
+    height: auto;
+    width: 250px;
+}
